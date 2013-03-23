@@ -1,0 +1,137 @@
+/* ----------------------------------------------------------------------------------
+
+    ColdCoffee global CSS styles
+
+---------------------------------------------------------------------------------- */
+
+body{
+    font-size:100%;
+    font-family: "Open Sans", "Lucida Grande", "Arial", sans-serif;
+}
+
+a{
+    color:#999;
+    text-decoration: none;
+}
+    a:hover{
+        color:#666;
+    }
+    a:active{
+        color:#333;
+    }
+
+p{
+    margin-bottom:0.8em;
+}
+
+/* -----------------------------------------------------------------------------------
+
+    $ WRAPPER AND CONTAINER DIVS
+
+    These can be enterchanged to have a colored div background with
+    centered content, or a centered colored div. Add padding class
+    to whichever div content is in.
+
+----------------------------------------------------------------------------------- */
+.wrapper{
+    max-width:1100px;
+    margin:auto;
+}
+.container{
+    background:#fff;
+}
+.margin{
+    margin:20px 0;
+}
+.padding{
+    padding:20px;
+}
+.rounded{
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------
+    $ HEADER TAGS 
+
+    Header tag sizes from HTML5 Boilerplate https://github.com/h5bp/html5-boilerplate 
+    Use these classes on header tags for more flexilbility
+
+    Example:
+        <h3 class="h1">This H3 will have the appearance of an H1,
+        but won't run the risk of having too many H1's on the page</h3>
+
+ ---------------------------------------------------------------------------------- */
+.h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0.67em 0;
+}
+.h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0.83em 0;
+}
+.h3 {
+    font-size: 1.17em;
+    font-weight: 500;
+    margin: 1em 0;
+}
+.h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+.h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+.h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+
+
+/* --------------------------------------------------------------------------------
+    $ Floats and clear
+---------------------------------------------------------------------------------- */
+.left{float:left;} .right{float: right;} .clear{clear:both;}
+
+
+/* ---------------------------------------------------------------------------------
+    $ INLINE UL NAV BASIC STRUCTURE
+
+    Without float:left; on the li's, there will be space left between each li.
+    This is fixed with margin-left:-0.32em; but may cause errors with more
+    elaborate nav bars.
+
+    If you prefer, remove the negative margin, use float:left,
+    and use overflow:hidden on the .nav class to clear the floats.
+
+--------------------------------------------------------------------------------- */
+.nav { /* overflow: hidden; */ }
+.nav li{
+    display: inline-block;
+    margin-left: -0.32em;
+    /*float: left;*/
+}
+    /* pushes the first li back in place */
+    .nav li:first-child{ margin-left:0; }
+
+    .nav li a{
+        display: block;
+    }
+
+
+.base-ul{
+    list-style: disc;
+    padding:10px;
+}
+    .base-ul li{
+        margin:0 0 0 20px;
+    }
+
+
