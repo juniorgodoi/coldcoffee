@@ -134,4 +134,18 @@ p{
         margin:0 0 0 20px;
     }
 
+/* Some basic CSS media queries for various window sizes */
+
+@media screen and (max-width:1060px){
+
+}
+
+@media screen and (max-width:780px){
+    
+}
+
+@media screen and (max-width:650px){
+   
+}
+
 
