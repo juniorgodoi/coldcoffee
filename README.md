@@ -5,8 +5,9 @@ ColdCoffee PHP Template System
 
 **TEMPLATE LOCATIONS**
 
-Templates located in /assets/includes/templates.\n
-Global styles & scripts in /assest/includes/globals.\n
+Templates located in /assets/includes/templates.
+
+Global styles & scripts in /assest/includes/globals.
 
 Master.php (located in /assets/includes) contains all variables for
 templates. You can add in new variable paths or just refer to them by
