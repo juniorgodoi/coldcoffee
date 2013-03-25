@@ -3,6 +3,17 @@ ColdCoffee
 
 ColdCoffee PHP Template System
 
+**SETUP**
+
+Just clone or download the zip file, and use it as your website's starting point. From there, add and
+edit templates, create new styles, etc. A local PHP environment is required. On Mac, use MAMP. For PC, use XAMPP.
+
+Basic templates are already created for you and are set up in the index.php file. Header, Sidebar, and Footer
+are the default templates. Styles and Scripts are the other global assets for the site. Any styles or scripts that need to
+be included on each page of your site go here. Any reoccurring code (like nav bars, etc.) can go in the header or footer
+templates. Thanks for trying out ColdCoffee!
+
+
 **TEMPLATE LOCATIONS**
 
 Templates located in /assets/includes/templates.
