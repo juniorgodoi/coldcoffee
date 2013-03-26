@@ -18,7 +18,7 @@ templates. Thanks for trying out ColdCoffee!
 
 On each page, in the head you'll see...
 
-	<?php set_include_path($_SERVER['DOCUMENT_ROOT'] . "assets/includes/"); include_once("master.php"); ?>
+	<?php set_include_path($_SERVER['DOCUMENT_ROOT'] . "/assets/includes/"); include_once("master.php"); ?>
 
 This sets the include path to the root of the server, and then includes the master.php file.
 For DOCUMENT_ROOT problems on shared servers, see "server include path" below.
