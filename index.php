@@ -3,7 +3,7 @@
 <!--[if gt IE 8]><!--><html><!--<![endif]-->
 <head>
 	<?php // IF SERVER ROOT ISSUES OCCURE, SEE README FOR INCLUDE PATH INFO
-		set_include_path($_SERVER['DOCUMENT_ROOT']);include_once("assets/includes/master.php");
+		set_include_path($_SERVER['DOCUMENT_ROOT'] . "/assets/includes/");include_once("master.php");
 	?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

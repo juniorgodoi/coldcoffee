@@ -14,15 +14,41 @@ be included on each page of your site go here. Any reoccurring code (like nav ba
 templates. Thanks for trying out ColdCoffee!
 
 
+**TEMPLATE USE**
+
+On each page, in the <head> you'll see...
+
+	<?php set_include_path($_SERVER['DOCUMENT_ROOT'] . "assets/includes/"); include_once("master.php"); ?>
+
+This sets the include path to the root of the server, and then includes the master.php file.
+For DOCUMENT_ROOT problems on shared servers, see "server include path" below.
+
+Each template is loaded on the page with <?php template( $template_name ); ?>
+
+It's just a php include_once(); but I like the look better and it's less to type. The template(); function
+is declared in master.php.
+
+All template variables are in the master.php file. You can also just use <?php template( "templates/the-template.php" ); ?>
+This is made easier with the set_include_path() function so you'll have better consistency across the site without worrying
+about server root paths.
+
+
 **TEMPLATE LOCATIONS**
 
-Templates located in /assets/includes/templates.
+Templates are located in /assets/includes/templates/ - 
+These are basically snippets of reoccurring html 
 
-Global styles & scripts in /assest/includes/globals.
+Global styles & scripts in /assest/includes/globals/ -
+These are styles, scripts, and plugins you want throughout your website.
 
-Master.php (located in /assets/includes) contains all variables for
-templates. You can add in new variable paths or just refer to them by
-using <?php template("templates/foo.php"); ?>
+Master.php is located in /assets/includes/ - 
+This contains all the template variables.
+
+
+**RETINA IMAGE SWAPPING**
+The retina magic happens in /assets/js/retina.js. Any <img> you want 2x-ed, just add class="2x" to it.
+I've also added some basic retina CSS code to get started with that, but the CSS differs on each element.
+
 
 
 **SERVER INCLUDE PATH**

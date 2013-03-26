@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if lt IE 8]> <html class="lt-ie8"> <![endif]-->
 <!--[if gt IE 8]><!--><html><!--<![endif]-->
-<head><?php set_include_path($_SERVER['DOCUMENT_ROOT']);include_once("assets/includes/master.php");?>
+<head><?php set_include_path($_SERVER['DOCUMENT_ROOT'] . "/assets/includes/");include_once("master.php");?>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
