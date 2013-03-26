@@ -16,7 +16,7 @@ templates. Thanks for trying out ColdCoffee!
 
 **TEMPLATE USE**
 
-On each page, in the <head> you'll see...
+On each page, in the head you'll see...
 
 	<?php set_include_path($_SERVER['DOCUMENT_ROOT'] . "assets/includes/"); include_once("master.php"); ?>
 
@@ -46,7 +46,7 @@ This contains all the template variables.
 
 
 **RETINA IMAGE SWAPPING**
-The retina magic happens in /assets/js/retina.js. Any <img> you want 2x-ed, just add class="2x" to it.
+The retina magic happens in /assets/js/retina.js. Any html image you want 2x-ed, just add class="2x" to it.
 I've also added some basic retina CSS code to get started with that, but the CSS differs on each element.
 
 
