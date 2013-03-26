@@ -3,6 +3,7 @@ ColdCoffee
 
 ColdCoffee PHP Template System
 
+
 **SETUP**
 
 Just clone or download the zip file, and use it as your website's starting point. From there, add and
@@ -12,6 +13,7 @@ Basic templates are already created for you and are set up in the index.php file
 are the default templates. Styles and Scripts are the other global assets for the site. Any styles or scripts that need to
 be included on each page of your site go here. Any reoccurring code (like nav bars, etc.) can go in the header or footer
 templates. Thanks for trying out ColdCoffee!
+
 
 
 **TEMPLATE USE**
@@ -33,6 +35,7 @@ This is made easier with the set_include_path() function so you'll have better c
 about server root paths.
 
 
+
 **TEMPLATE LOCATIONS**
 
 Templates are located in /assets/includes/templates/ - 
@@ -45,7 +48,9 @@ Master.php is located in /assets/includes/ -
 This contains all the template variables.
 
 
+
 **RETINA IMAGE SWAPPING**
+
 The retina magic happens in /assets/js/retina.js. Any html image you want 2x-ed, just add class="2x" to it.
 I've also added some basic retina CSS code to get started with that, but the CSS differs on each element.
 
@@ -77,3 +82,9 @@ use a relative path for the include path.
 Keep jumping up a directory for each subdirectory you create.
 
 
+
+**AND FINALLY,**
+	
+This is a work in progress. I love finding new ways to begin static sites when it comes to organization,
+file structure, templates, global styles... You get the point. So this is just what I enjoy using, and
+maybe some others will too. Thanks!
